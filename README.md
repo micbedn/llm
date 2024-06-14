@@ -6,7 +6,7 @@ Umieść model 'model_state_dict.pth' w obecnym katalogu
 model.load_state_dict(torch.load('model_state_dict.pth'))
 ```
 
-Model przez dwa etapy: wstępne trenowanie na ogólnym zbiorze danych oraz dostrajanie na konkretnym zbiorze danych skoncentrowanym na czacie.
+Model przechodzi przez dwa etapy: wstępne trenowanie na ogólnym zbiorze danych oraz dostrajanie na konkretnym zbiorze danych skoncentrowanym na czacie.
 ### Wstępne Trenowanie:
 ```
 train(iters=100, eval_interval=10)
