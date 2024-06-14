@@ -1,1 +1,5 @@
-datasets
+numpy 
+torch 
+tiktoken 
+datasets 
+tqdm
