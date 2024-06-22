@@ -79,7 +79,7 @@ Próbka:
 
 Wybrałem architekturę transformatorową zaproponowaną w publikacji “Attention is All You Need” ze względu na jej zdolność do efektywnego przetwarzania sekwencji i modelowania długoterminowych zależności w danych. Model transformatorowy posiada przewagę nad tradycyjnymi modelami RNN dzięki swojej architekturze opierającej się na mechanizmach uwagi która uchwyca istotne informacje w tekście.
 
-Dla tego zadania (generowania tekstu) zastosowano tylko dekoder, co jest modyfikacją w stosunku do oryginalnej architektury.
+Dla tego zadania (generowania tekstu) zastosowano tylko dekoder.
 
 
 
